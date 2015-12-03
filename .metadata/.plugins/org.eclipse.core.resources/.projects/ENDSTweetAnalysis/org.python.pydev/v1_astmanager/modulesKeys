@@ -1,4 +1,6 @@
 MODULES_MANAGER_V2
 ENDS.__init__|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/__init__.py
 ENDS.calculateTweetFrequency|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/calculateTweetFrequency.py
+ENDS.calculateUserFrequency|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/calculateUserFrequency.py
+ENDS.createDataSetWithNoSpam|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/createDataSetWithNoSpam.py
 ENDS.removeRtTag|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/removeRtTag.py
