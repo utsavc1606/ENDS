@@ -1,0 +1,12 @@
+'''
+Created on Dec 3, 2015
+
+@author: utsavchatterjee
+'''
+# Common directory where all files are located; storing into variable for convenience
+filesDirectory = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/Data/"
+
+# storing the necessary files into variables and opening them for read/write operations
+inputFile = open(filesDirectory+"unwantedTweets.txt", "r")
+outputFile1 = open(filesDirectory+"spamFreeData.txt", "w")
+

@@ -1,0 +1,10 @@
+'''
+Created on Dec 3, 2015
+
+@author: utsavchatterjee
+'''
+# Common directory where all files are located; storing into variable for convenience
+filesDirectory = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/Data/"
+
+
+
