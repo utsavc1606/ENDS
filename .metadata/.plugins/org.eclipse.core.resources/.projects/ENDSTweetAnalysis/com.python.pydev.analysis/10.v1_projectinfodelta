@@ -1,7 +1,1 @@
-INSTUPENDS.createDataSetWithNoSpam
-/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/createDataSetWithNoSpam.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0
-inputFile=3
-outputFile1=4
-ENDS.createDataSetWithNoSpam=2
-filesDirectory=1
+DELSTRENDS.calculateUserFrequency
