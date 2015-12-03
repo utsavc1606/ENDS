@@ -1,0 +1,20 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+inputFile = filePath + "tweetOutput.csv"
+
+openInputFile = open(inputFile, "r")
+
+tweet_dict = {}
+
+for line in openInputFile:
+    (user_id, tweet_text) = line.split("-->")
+    tweet_dict[user_id] = tweet_text
+    
+for key in tweet_dict:
+    print key + "is the key and "+ tweet_dict[key] + " is the value."

@@ -1,0 +1,17 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+import re
+
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+# Load file paths into variables for convenience
+inputFile = filePath + "retweets.txt"
+outputFile = filePath + "cleanRetweets.txt"
+
+# Open files for read and write operations
+openInputFile = open(inputFile, "r")
+openOutputFile = open(outputFile, "w")
+

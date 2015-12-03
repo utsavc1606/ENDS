@@ -1,0 +1,28 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+inputFile = filePath + "tweetOutput.csv"
+
+openInputFile = open(inputFile, "r")
+
+tweet_dict = {}
+
+for line in openInputFile:
+    (user_id, tweet_text) = line.split("-->")
+    tweet_dict[user_id] = tweet_text
+    
+RT_list = []    
+rt_keyword = "RT"    
+    
+for key in tweet_dict:
+    if rt_keyword in tweet_dict[key]:
+        RT_list.append(key + "|"+ tweet_dict[key])
+        
+for retweets in RT_list:
+    print retweets
+        

@@ -1,0 +1,30 @@
+-- VERSION_4
+-- START DISKCACHE_2
+/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/.metadata/.plugins/org.eclipse.core.resources/.projects/ENDSTweetAnalysis/com.python.pydev.analysis/v2_indexcache
+ENDS.SeparateRetweets|1449102522000000000|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/SeparateRetweets.py
+ENDS.RemoveRetweetTags|1449102293000000000|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/RemoveRetweetTags.py
+ENDS.scratchpad|1449118739000000000|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/scratchpad.py
+ENDS.__init__|1449091525000000000|/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=ENDS.SeparateRetweets
+2=ENDS.RemoveRetweetTags
+3=ENDS.scratchpad
+-- END DICTIONARY
+-- START TREE 1
+10
+f|0|
+fil|2|filePath!11@filePath!19@
+inp|3|inputFile!19@inputFile!27@inputFile!11@
+ope|4|openOutputFile!11@openOutputFile!19@openInputFile!19@openInputFile!11@
+out|2|outputFile!27@outputFile!19@
+ret|1|retweetFile!11@
+rt_|2|RT_list!11@rt_keyword!11@
+rtm|1|rtMarker!27@
+twe|2|tweetText!27@tweet_dict!11@
+use|1|username!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

@@ -1,0 +1,12 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+f = open("/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/testdata.txt", "r")
+
+for line in f:
+    tweetText = line.split("-->")[1]
+    print tweetText
+    if "RT @" in tweetText:
+        print "true"

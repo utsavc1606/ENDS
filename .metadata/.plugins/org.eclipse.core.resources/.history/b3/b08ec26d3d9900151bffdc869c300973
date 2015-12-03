@@ -1,0 +1,19 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+inputFile = filePath + "tweetOutput.csv"
+
+openInputFile = open(inputFile, "r")
+
+
+
+for line in openInputFile:
+    user_id = line.split("-->")[0]
+    tweet_text = line.split("-->")[1]
+    print user_id + " : "+ tweet_text
+    

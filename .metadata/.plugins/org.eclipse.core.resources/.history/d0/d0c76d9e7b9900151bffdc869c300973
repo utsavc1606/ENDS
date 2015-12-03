@@ -1,0 +1,23 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+# Load file paths into variables for convenience
+inputFile = filePath + "retweets.txt"
+outputFile = filePath + "cleanRetweets.txt"
+
+# Open files for read and write operations
+openInputFile = open(inputFile, "r")
+openOutputFile = open(outputFile, "w")
+
+# str.replaceAll("\\;.*?\\|","")
+#my_string.split("world",1)[1] 
+for line in openInputFile:
+    print line
+#     (user_id, tweet_text) = line.split("|")
+#     openOutputFile.write(tweet_text.split(":",1)[1])
+    
+    

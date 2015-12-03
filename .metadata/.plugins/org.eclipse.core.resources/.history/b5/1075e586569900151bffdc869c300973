@@ -1,0 +1,14 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+inputFile = open("/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/testdata.txt", "r")
+outputFile = open("/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/retweets.txt", "w")
+
+rtMarker = "RT @"
+
+for line in inputFile:
+    tweetText = line.split("-->")[1]
+    if rtMarker in tweetText:
+        outputFile.write(tweetText.split(":",1)[1])

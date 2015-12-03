@@ -1,0 +1,38 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+# General location of the data files
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+# Load file paths into variables for convenience
+inputFile = filePath + "tweetOutput.csv"
+retweetFile = filePath + "retweets.txt"
+
+# Open files for read and write operations
+openInputFile = open(inputFile, "r")
+openOutputFile = open(retweetFile, "w")
+
+# make dictionary to store tweets against user names
+tweet_dict = {}
+
+for line in openInputFile:
+    (user_id, tweet_text) = line.split("-->")
+    tweet_dict[user_id] = tweet_text
+
+# make list to store retweets only    
+RT_list = []    
+rt_keyword = "RT"    
+    
+for key in tweet_dict:
+    if rt_keyword in tweet_dict[key]:
+        tweet_dict[key] = (tweet_dict[key].split(":",1)[1])
+
+# writing retweets only to another file to play with        
+for retweets in RT_list:
+    openOutputFile.write(retweets)
+    
+# closing open files    
+openOutputFile.close()     
+openInputFile.close()

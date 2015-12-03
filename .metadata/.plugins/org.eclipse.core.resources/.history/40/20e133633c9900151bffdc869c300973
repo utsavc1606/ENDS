@@ -1,0 +1,13 @@
+'''
+Created on Dec 2, 2015
+
+@author: utsavchatterjee
+'''
+
+filePath = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
+
+inputFile = filePath + "tweetOutput.csv"
+
+openInputFile = open(inputFile, "r")
+
+print openInputFile.readline()
