@@ -12,5 +12,6 @@
 
 <b>Step 6</b>: Review and shortlist users relevant to this research. <font color="#cc3333"><i>(Pending)</i></font><br />
 
-<b><i><u>Note</u></b>: All Input and Output files are located in the Data folder.	
+<b><i><u>Note</u></b>: All Input and Output files are located in the Data folder.	<br />
+Main code files are located at <b>"ENDS/ENDSTweetAnalysis/ENDS/"</b> in the repository.
 	
