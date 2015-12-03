@@ -1,14 +1,14 @@
 # ENDS - Analysis using Twitter data
 
-<b>Step 1</b>: Collect tweets from Twitter based on certain keywords that are relevant to ENDS. <font color="#33cc33"><i>(Completed)</i></font><br />
+<b>Step 1</b>: Collect tweets from Twitter based on certain keywords that are relevant to ENDS. [Output file: tweetOutput.csv]<font color="#33cc33"><i>(Completed)</i></font><br />
 
-<b>Step 2</b>: Filter out retweeted tags <font color="#33cc33"><i>(Completed)</i></font><br />
+<b>Step 2</b>: Filter out retweeted tags [Output file: allTweetsNoRtTag.txt <i>(original)</i> Step2Op4Staging.txt<i>(working copy)</i>]<font color="#33cc33"><i>(Completed)</i></font><br />
 
-<b>Step 3</b>: Filter out spam tweets (obvious bots and advertisers). <font color="#ff9933"><i>(In Progress)</i></font><br />
+<b>Step 3</b>: Filter out spam tweets (obvious bots and advertisers). [Output files: unwantedTweets.txt, unwantedTweetsWithFrequency.txt]<font color="#33cc33"><i>(Completed)</i></font><br />
 
-<b>Step 4</b>: Calculate tweet frequency per user_id. <font color="#cc3333"><i>(Pending)</i></font><br />
+<b>Step 4</b>: Create clean working data set with limited special characters and no spam tweets<font color="#cc3333"><i>(In Progress)</i></font><br />
 
-<b>Step 5</b>: Shortlist users who post relevant tweets. <font color="#cc3333"><i>(Pending)</i></font><br />
+<b>Step 5</b>: Calculate user tweet frequency. <font color="#cc3333"><i>(Pending)</i></font><br />
 	
-	
+<b><i><u>Note</u></b>: All Input and Output files are located in the Data folder.	
 	

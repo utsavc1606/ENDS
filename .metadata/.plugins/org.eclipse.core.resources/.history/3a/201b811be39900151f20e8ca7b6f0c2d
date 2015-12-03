@@ -10,7 +10,7 @@ the second output file contains the tweet frequency of each spam tweet from the 
 import collections
 
 # Common directory where all files are located; storing into variable for convenience
-filesDirectory = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/Data/"
+filesDirectory = "/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/"
 
 # storing the necessary files into variables and opening them for read/write operations 
 inputFile = open(filesDirectory+"Step2Op4Staging.txt", "r")
