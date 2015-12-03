@@ -6,7 +6,7 @@
 
 <b>Step 3</b>: Filter out spam tweets (obvious bots and advertisers). [Output files: unwantedTweets.txt, unwantedTweetsWithFrequency.txt]<font color="#33cc33"><i>(Completed)</i></font><br />
 
-<b>Step 4</b>: Create clean working data set no spam tweets.<font color="#33cc33"><i> (Completed)</i></font> [Output File: spamFreeData.txt]<br />
+<b>Step 4</b>: Create clean working data set no spam tweets. [Output File: spamFreeData.txt]<font color="#33cc33"><i> (Completed)</i></font> <br />
 
 <b>Step 5</b>: Calculate user tweet frequency. <font color="#cc3333"><i>(Pending)</i></font><br />
 
