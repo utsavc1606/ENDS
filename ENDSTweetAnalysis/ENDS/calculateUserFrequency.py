@@ -51,8 +51,8 @@ for items in counter.iteritems():
         outputFile.write(items[0].strip("\n")+"|"+str(items[1])+"\n")
         lowCounter += 1
         
-print "High Frequency Users: " + str(highCounter)
-print "Medium Frequency Users: " + str(medCounter)
-print "Low Frequency Users: " + str(lowCounter)        
+outputFile.write( " \n High Frequency Users: " + str(highCounter) +"\n")
+outputFile.write( "Medium Frequency Users: " + str(medCounter)+"\n")
+outputFile.write( "Low Frequency Users: " + str(lowCounter)    +"\n")    
             
 

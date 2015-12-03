@@ -77991,3 +77991,7 @@ Jesusmhuerta |1
 PanuIsThatYu |1
 dlchaberdashery |1
 skylerdanzr |3
+ 
+ High Frequency Users: 119
+Medium Frequency Users: 269
+Low Frequency Users: 77602

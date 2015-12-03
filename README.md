@@ -8,7 +8,7 @@
 
 <b>Step 4</b>: Create clean working data set no spam tweets. [Output File: spamFreeData.txt]<font color="#33cc33"><i> (Completed)</i></font> <br />
 
-<b>Step 5</b>: Calculate user tweet frequency. <font color="#cc3333"><i>(Pending)</i></font><br />
+<b>Step 5</b>: Calculate user tweet frequency. [Output file: userFrequency.txt]<font color="#33cc33"><i> (Completed)</i></font><br />
 
 <b>Step 6</b>: Review and shortlist users relevant to this research. <font color="#cc3333"><i>(Pending)</i></font><br />
 

@@ -1,9 +1,0 @@
-INSTUPENDS.calculateUserFrequency
-/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/calculateUserFrequency.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0
-ENDS.calculateUserFrequency=2
-outputFile=4
-userList=5
-cleanDataFile=3
-counter=6
-filesDirectory=1
