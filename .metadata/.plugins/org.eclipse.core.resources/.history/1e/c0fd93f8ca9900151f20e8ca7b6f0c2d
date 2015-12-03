@@ -1,0 +1,8 @@
+'''
+Created on Dec 3, 2015
+
+@author: utsavchatterjee
+'''
+inputFile = open("/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/Step2Op4Staging.txt", "r")
+for line in inputFile:
+    print line

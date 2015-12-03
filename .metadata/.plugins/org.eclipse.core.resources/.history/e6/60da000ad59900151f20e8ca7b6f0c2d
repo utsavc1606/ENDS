@@ -1,0 +1,31 @@
+'''
+Created on Dec 3, 2015
+
+@author: utsavchatterjee
+'''
+
+import hashlib
+import collections
+
+m = hashlib.md5()
+
+inputFile = open("/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/Step2Op4Staging.txt", "r")
+tweetList = []
+tweetCounter = 0
+for line in inputFile:
+    tweetText = line.split("-->")[1]
+    tweetText.strip() 
+    tweetList.append(tweetText)
+
+counter = collections.Counter(tweetList)
+# counter=collections.Counter(a)
+for key, value in counter:
+    print key + " -->" + value
+
+
+
+
+
+#     userid = line.split("-->")[0]
+#     tweetTextHash = hashlib.md5(tweetText).hexdigest()
+#     print userid + "-->" + tweetTextHash

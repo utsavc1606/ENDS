@@ -1,9 +1,1 @@
-INSTUPENDS.scratchpad
-/Users/utsavchatterjee/Documents/Python Projects/ENDS Tweet Analysis/ENDS/ENDSTweetAnalysis/ENDS/scratchpad.py
-INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0
-inputFile=1
-outputFile=3
-rtMarker=4
-tweetText=5
-ENDS.scratchpad=2
-username=6
+DELSTRENDS.calculateTweetFrequency
